@@ -14,15 +14,5 @@
     "helloworld"
   ],
   "author": "lv7777",
-  "license": "MPL-2.0",
-  
-  "man":{
-      "name":"test_npm_module",
-      "version":"0.0.1",
-      "description":"this is main man.And man test.",
-      "main":"index.js",
-      "man":"./docs/main_help.1"
-  }
-
-
+  "license": "MPL-2.0"
 }
