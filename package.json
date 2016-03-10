@@ -4,7 +4,7 @@
   "description": "this is my test module",
   "main": "index.js",
   "scripts": {
-    "test": "hello"
+    "test": "echo hello!"
   },
   "repository" :
     { "type" : "git"
@@ -16,3 +16,4 @@
   "author": "lv7777",
   "license": "MPL-2.0"
 }
+　
