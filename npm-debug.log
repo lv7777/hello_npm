@@ -1,0 +1,96 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.12
+3 info using node@v5.4.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'C:\\Users\\tes\\Desktop\\temp\\GeckoLion\\test_npm_module',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package.tgz not in flight; packing
+9 info lifecycle test_npm_module@1.0.2~prepublish: test_npm_module@1.0.2
+10 silly lifecycle test_npm_module@1.0.2~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ 'C:\\Users\\tes\\AppData\\Roaming\\npm-cache\\test_npm_module\\1.0.2\\package.tgz',
+11 verbose tar pack   'C:\\Users\\tes\\Desktop\\temp\\GeckoLion\\test_npm_module' ]
+12 verbose tarball C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package.tgz
+13 verbose folder C:\Users\tes\Desktop\temp\GeckoLion\test_npm_module
+14 verbose addLocalTarball adding from inside cache C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package.tgz
+15 silly cache afterAdd test_npm_module@1.0.2
+16 verbose afterAdd C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package\package.json not in flight; writing
+17 verbose afterAdd C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package\package.json written
+18 silly publish { name: 'test_npm_module',
+18 silly publish   version: '1.0.2',
+18 silly publish   description: 'this is my test module',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'echo hello!' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+ssh://git@github.com/lv7777/hello_npm.git' },
+18 silly publish   keywords: [ 'helloworld' ],
+18 silly publish   author: { name: 'lv7777' },
+18 silly publish   license: 'MPL-2.0',
+18 silly publish   readme: '[![Build Status](https://secure.travis-ci.org/lv7777/hello_npm.png?branch=master)](https://travis-ci.org/lv7777/hello_npm/)\r\n[![GitHub version](https://badge.fury.io/gh/lv7777%2Fhello_npm.svg)](https://badge.fury.io/gh/lv7777%2Fhello_npm)\r\n[![Code Climate](https://codeclimate.com/github/lv7777/hello_npm/badges/gpa.svg)](https://codeclimate.com/github/lv7777/hello_npm)\r\n[![Test Coverage](https://codeclimate.com/github/lv7777/hello_npm/badges/coverage.svg)](https://codeclimate.com/github/lv7777/hello_npm/coverage)\r\n[![Issue Count](https://codeclimate.com/github/lv7777/hello_npm/badges/issue_count.svg)](https://codeclimate.com/github/lv7777/hello_npm)\r\n\r\n[![MPL 2.0 License](https://img.shields.io/badge/License-MPL2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/)\r\n[![Custom Badge](https://img.shields.io/badge/lv7777-god-brightgreen.svg)](https://twitter.com/levena_evenas)\r\n# hello!\r\n\r\nIt\'s my test npm.\r\n\r\nsense of wonder.**we are modest...**\r\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '01eab7995b6beb3337a254421011894c12d8a93a',
+18 silly publish   bugs: { url: 'https://github.com/lv7777/hello_npm/issues' },
+18 silly publish   homepage: 'https://github.com/lv7777/hello_npm#readme',
+18 silly publish   _id: 'test_npm_module@1.0.2',
+18 silly publish   _shasum: 'fbdfac1ea932d3642de4955c8a4afbf6dfb175a7',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name test_npm_module
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/test_npm_module
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading C:\Users\tes\AppData\Roaming\npm-cache\test_npm_module\1.0.2\package.tgz
+26 verbose request uri https://registry.npmjs.org/test_npm_module
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 15:27:15
+29 verbose request using bearer token for auth
+30 verbose request id c07d41ea3a0906ec
+31 http request PUT https://registry.npmjs.org/test_npm_module
+32 http 403 https://registry.npmjs.org/test_npm_module
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Fri, 11 Mar 2016 06:27:09 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-itm7427-ITM',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1457677628.449620,VS0,VE1488' }
+34 verbose request invalidating C:\Users\tes\AppData\Roaming\npm-cache\registry.npmjs.org\test_npm_module on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.2." : test_npm_module
+36 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+36 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+36 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1082:10)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid test_npm_module
+39 verbose cwd C:\Users\tes\Desktop\temp\GeckoLion\test_npm_module
+40 error Windows_NT 10.0.10586
+41 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+42 error node v5.4.0
+43 error npm  v3.3.12
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.2." : test_npm_module
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
