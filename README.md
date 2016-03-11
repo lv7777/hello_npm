@@ -3,6 +3,9 @@
 [![Code Climate](https://codeclimate.com/github/lv7777/hello_npm/badges/gpa.svg)](https://codeclimate.com/github/lv7777/hello_npm)
 [![Test Coverage](https://codeclimate.com/github/lv7777/hello_npm/badges/coverage.svg)](https://codeclimate.com/github/lv7777/hello_npm/coverage)
 [![Issue Count](https://codeclimate.com/github/lv7777/hello_npm/badges/issue_count.svg)](https://codeclimate.com/github/lv7777/hello_npm)
+
+[![MPL 2.0 License](https://img.shields.io/badge/License-MPL2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/)
+[![Custom Badge](https://img.shields.io/badge/License-MPL2.0-blue.svg)](https://twitter.com/levena_evenas)
  <img src="https://img.shields.io/badge/lv7777-god-brightgreen.svg" alt="npm version">
 # hello!
 
