@@ -14,7 +14,7 @@
 
 module.exports.hello_cpp=function() {
     var cpp=require("./native_addon/build/Release/helloworld");
-    cpp.hello();
+    console.log(cpp.hello());
 }
 
 module.exports.hello_npm=function() {
