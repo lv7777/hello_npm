@@ -1,7 +1,5 @@
 language: node_js
 node_js:
  - 0.9
-notification:
-  webhooks:
-    urls:
-      - https://maker.ifttt.com/trigger/travisCI/with/key/"$secure_key"
+after_success:
+   "curl -X POST https://maker.ifttt.com/trigger/travisCI/with/key/$secure_key"
