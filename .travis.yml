@@ -4,7 +4,9 @@ before_script:
  - npm install -g glup
  - npm install -g mocha
 node_js:
- - 0.9
+ - 2.2
+before_script:
+ - npm install -g eslint
 notifications:
   webhooks:
     - https://maker.ifttt.com/trigger/travisCI/with/key/"$secure_key"
