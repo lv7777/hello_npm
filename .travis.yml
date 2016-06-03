@@ -3,7 +3,7 @@ node_js:
  - 2.2
 before_script:
  - npm install -g eslint
- - npm install -g glup
+ - npm install -g gulp
  - npm install -g mocha
 notifications:
   webhooks:
