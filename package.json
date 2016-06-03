@@ -4,7 +4,8 @@
   "description": "this is my test module",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js"
+    "test":"gulp",
+    "eslint": "eslint index.js"
   },
   "repository" :
     { "type" : "git"

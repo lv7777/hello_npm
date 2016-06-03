@@ -1,12 +1,10 @@
 language: node_js
-before_script:
- - npm install -g eslint
- - npm install -g glup
- - npm install -g mocha
 node_js:
  - 2.2
 before_script:
  - npm install -g eslint
+ - npm install -g glup
+ - npm install -g mocha
 notifications:
   webhooks:
     - https://maker.ifttt.com/trigger/travisCI/with/key/"$secure_key"
