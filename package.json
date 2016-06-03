@@ -4,8 +4,11 @@
   "description": "this is my test module",
   "main": "index.js",
   "scripts": {
-    "test":"gulp",
+    "test": "gulp",
     "eslint": "eslint index.js"
+  },
+    "devDependencies": {
+    "gulp": "^3.9.0"
   },
   "repository" :
     { "type" : "git"
